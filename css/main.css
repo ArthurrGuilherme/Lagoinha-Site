@@ -1,0 +1,8 @@
+.SectionPrimario {
+    background: url(../img/bg.webp);
+    background-size: cover;
+}
+.sessaoPrimaria {
+    background: #0000007e;
+    padding: 15.5rem 0px;
+}
