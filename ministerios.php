@@ -68,30 +68,62 @@
         </section>
         <section>
             <article class="container-md d-flex justify-content-evenly align-items-center">
-                <div id="Solidaria" class="card mb-3" style="max-width: 540px; cursor: pointer;">
+                <div id="casais" class="card mb-3" style="max-width: 540px; cursor: pointer;">
                     <div class="row g-0">
                     <div class="col-md-4">
                         <img src="./img/crie.png" class="img-fluid rounded-start" alt="...">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
-                        <h5 class="card-title">Lagoinha Solidária</h5>
-                        <p class="card-text"><small class="text-muted">Coordenação: Raimundo Alcantara e Eluar Alcantara</small></p>
-                        <p class="card-text"><small class="text-muted">19 98728-3177</small></p>
+                        <h5 class="card-title">Casais</h5>
+                        <p class="card-text"><small class="text-muted">Coordenação: Alexandre Senju e Liliani Senju</small></p>
+                        <p class="card-text"><small class="text-muted">19 99227-4619</small></p>
                         </div>
                     </div>
                 </div>
                 </div>
-                <div id="GC" class="card mb-3" style="max-width: 540px; cursor: pointer;">
+                <div id="Elas" class="card mb-3" style="max-width: 540px; cursor: pointer;">
                     <div class="row g-0">
                     <div class="col-md-4">
-                        <img src="./img/gc.png" class="img-fluid rounded-start" alt="...">
+                        <img src="./img/elas.png" class="img-fluid rounded-start" alt="...">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
-                        <h5 class="card-title">GC - Grupo de Crescimento</h5>
-                        <p class="card-text"><small class="text-muted">Coordenação: Guilherme Almeida e Beatriz Almeida</small></p>
-                        <p class="card-text"><small class="text-muted">19 99221-8976</small></p>
+                        <h5 class="card-title">Elas</h5>
+                        <p class="card-text"><small class="text-muted">Coordenação: Hellen Geraldi</small></p>
+                        <p class="card-text"><small class="text-muted">19 98138-5445</small></p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section>
+            <article class="container-md d-flex justify-content-evenly align-items-center">
+                <div id="maximus" class="card mb-3" style="max-width: 540px; cursor: pointer;">
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./img/maximus.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Maximus</h5>
+                        <p class="card-text"><small class="text-muted">Coordenação: Cristiano Bredda</small></p>
+                        <p class="card-text"><small class="text-muted">19 98820-0057</small></p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div id="Intercessão" class="card mb-3" style="max-width: 540px; cursor: pointer;">
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./img/crie.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Intercessão</h5>
+                        <p class="card-text"><small class="text-muted">Coordenação: Volney Lima e Luana Lima</small></p>
+                        <p class="card-text"><small class="text-muted">11 95488-4859</small></p>
                         </div>
                     </div>
                     </div>

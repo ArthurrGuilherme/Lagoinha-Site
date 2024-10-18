@@ -15,3 +15,49 @@ GC.addEventListener('click', function(){
     button: "Fechar",
         });
     });
+
+const casais = document.querySelector('#casais');
+casais.addEventListener('click', function(){
+    swal({
+    title: "Casais",
+    text: "O Ministério de Casais Lagoinha Campinas, tem a missão cuidar, aconselhar, discipular e capacitar os casais, a fim de contruir um matrimônio pautado nos princípios da palavra de Deus. Com a visão de fortalecer os casamentos por meio de congressos, seminários, eventos, cursos e confraternizações. Valores como conhecer as Escrituras, amar as famílias, ter intimidade com Deus, colocando Jesus no centro do matrimônio; e com objetivo principal é ajudar os casais de tal forma que o divórcio nunca seja uma opção. Ajudar na formação de casais qualificados para atuar como orientadores conjugais e desenvolver hábitos espirituais a fim de fortalecê-los na intimidade com Cristo e no cumprimento da Missão.",
+    button: "Fechar",
+        });
+    });
+ 
+const Elas = document.querySelector('#Elas');
+Elas.addEventListener('click', function(){
+    swal({
+    title: "Elas",
+    text: "Ministérios de Mulheres",
+    button: "Fechar",
+        });
+    });  
+    
+const maximus = document.querySelector('#maximus');
+maximus.addEventListener('click', function(){
+    swal({
+    title: "Maximus",
+    text: "Maximus é o ministério de homens da Lagoinha Campinas.",
+    button: "Fechar",
+        });
+    }); 
+    
+const Intercessão = document.querySelector('#Intercessão');
+Intercessão.addEventListener('click', function(){
+    swal({
+    title: "Intercessão",
+    text: "O ministério de intercessão tem como missão, colocar-se diante do Senhor em favor de alguém ou alguma situação, rogando pelas causas e necessidades da igreja, seus membros, bairro, cidade, estado e país; e qualquer causa que o Espirito Santo nos dirigir para orar. Também buscando em oração estabelecer a vontade do coração de Deus. Pessoas no mundo todo precisam conhecer a Cristo e, para isso, cabe a nós cristãos intercedermos e abençoarmos iniciativas de evangelismo e missões. Com o objetivo de despertar e preparar a Igreja do Senhor para a volta de Jesus. Somos chamados a interceder porque Deus nos deu essa oportunidade, e a Igreja Batista da Lagoinha acredita que um povo unido em oração é canal de transformação na sociedade.",
+    button: "Fechar",
+        });
+    });      
+    
+    
+const Intercessão = document.querySelector('#Intercessão');
+Intercessão.addEventListener('click', function(){
+    swal({
+    title: "Intercessão",
+    text: "O ministério de intercessão tem como missão, colocar-se diante do Senhor em favor de alguém ou alguma situação, rogando pelas causas e necessidades da igreja, seus membros, bairro, cidade, estado e país; e qualquer causa que o Espirito Santo nos dirigir para orar. Também buscando em oração estabelecer a vontade do coração de Deus. Pessoas no mundo todo precisam conhecer a Cristo e, para isso, cabe a nós cristãos intercedermos e abençoarmos iniciativas de evangelismo e missões. Com o objetivo de despertar e preparar a Igreja do Senhor para a volta de Jesus. Somos chamados a interceder porque Deus nos deu essa oportunidade, e a Igreja Batista da Lagoinha acredita que um povo unido em oração é canal de transformação na sociedade.",
+    button: "Fechar",
+        });
+    });     
