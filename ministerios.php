@@ -25,20 +25,79 @@
         <?php echo $arrow; ?>
     <!--Scrolltop-->
     <main>
-        <div id="crie" class="card mb-3" style="max-width: 540px; cursor: pointer;">
-            <div class="row g-0">
-            <div class="col-md-4">
-                <img src="./img/crie.png" class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-                <div class="card-body">
-                <h5 class="card-title">Lagoinha Solidária</h5>
-                <p class="card-text"><small class="text-muted">Coordenação: Raimundo Alcantara e Eluar Alcantara</small></p>
-                <p class="card-text"><small class="text-muted">19 98728-3177</small></p>
+        <section id="Titulo" class="container-md d-flex justify-content-center align-items-center p-4">
+            <article>
+                <div>
+                    <span >
+                        <h3 class="text-center"><strong>Ministérios</strong></h3>
+                    </span>
                 </div>
-            </div>
-            </div>
-        </div>
+            </article>
+        </section>
+        <section>
+            <article class="container-md d-flex justify-content-evenly align-items-center">
+                <div id="Solidaria" class="card mb-3" style="max-width: 540px; cursor: pointer;">
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./img/crie.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Lagoinha Solidária</h5>
+                        <p class="card-text"><small class="text-muted">Coordenação: Raimundo Alcantara e Eluar Alcantara</small></p>
+                        <p class="card-text"><small class="text-muted">19 98728-3177</small></p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div id="GC" class="card mb-3" style="max-width: 540px; cursor: pointer;">
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./img/gc.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">GC - Grupo de Crescimento</h5>
+                        <p class="card-text"><small class="text-muted">Coordenação: Guilherme Almeida e Beatriz Almeida</small></p>
+                        <p class="card-text"><small class="text-muted">19 99221-8976</small></p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section>
+            <article class="container-md d-flex justify-content-evenly align-items-center">
+                <div id="Solidaria" class="card mb-3" style="max-width: 540px; cursor: pointer;">
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./img/crie.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Lagoinha Solidária</h5>
+                        <p class="card-text"><small class="text-muted">Coordenação: Raimundo Alcantara e Eluar Alcantara</small></p>
+                        <p class="card-text"><small class="text-muted">19 98728-3177</small></p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div id="GC" class="card mb-3" style="max-width: 540px; cursor: pointer;">
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./img/gc.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">GC - Grupo de Crescimento</h5>
+                        <p class="card-text"><small class="text-muted">Coordenação: Guilherme Almeida e Beatriz Almeida</small></p>
+                        <p class="card-text"><small class="text-muted">19 99221-8976</small></p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </article>
+        </section>
     </main>
     <!--Footer-->
         <?php echo $footer; ?>
