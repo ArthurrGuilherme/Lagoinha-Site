@@ -104,4 +104,40 @@ Rocket.addEventListener('click', function(){
     text: "Acompanhar, cuidar, pastorear e incentivar os adolescentes da Igreja Batista da Lagoinha a terem uma vida entregue a Jesus. Essa é a missão do ministério Rocket Teen, que treina, prepara e abençoa adolescentes na faixa etária de 13 a 18 anos e contribui para que eles se tornem adultos comprometidos com Jesus Cristo. O objetivo é que os adolescentes possam expandir o trabalho de evangelizar outros adolescentes, para que sejam salvos em Cristo Jesus. Para isso, um amplo trabalho é realizado com eles, desenvolvendo princípios e valores cristãos, para que sejam capazes de impactar a sociedade refletindo o caráter de Cristo.",
     button: "Fechar",
         });
-    });     
+    });   
+    
+const legacy = document.querySelector('#legacy');
+legacy.addEventListener('click', function(){
+    swal({
+    title: "Legacy Jovens",
+    text: "O ministério de jovens da Igreja Batista da Lagoinha tem a finalidade de acompanhar, cuidar, pastorear e incentivar todos os jovens da comunidade e da cidade a terem uma vida completamente parecida com Jesus. Capacitar e desenvolver jovens para uma vida santa e comprometida com o evangelho e com o reino de Deus aqui na terra. Sabendo que cada jovem é um potencial para o crescimento da igreja, e assim leva-los ao conhecimento e cumprimento da Palavra no testemunhar, evangelizar, ensinar e ministrar na vida de outros jovens.",
+    button: "Fechar",
+        });
+    });      
+
+const Plug = document.querySelector('#Plug');
+Plug.addEventListener('click', function(){
+    swal({
+    title: "Plug",
+    text: "O papel da Igreja Batista da Lagoinha é anunciar as Boas Novas de Cristo; e, para isso, é preciso ter estratégias para alcançar o maior número de pessoas. Só assim, milhares de famílias terão a oportunidade de viver uma experiência com o Pai e ter a vida transformada. Para isso é preciso encontrar maneiras de falar do amor de Deus. Por meio de ações dos vários ministérios, evangelismos e tantas outras maneiras, a igreja segue cumprindo esse propósito. Um dos ministérios da Lagoinha Campinas que envolve uma equipe que auxilia na integração das pessoas à igreja é o Plug. Ele foi criado com o objetivo de elaborar processos que aproximam e conectam as pessoas com os aspectos fundamentais da Igreja orgânica. Plug é a estrutura da igreja otimizando o cuidado, o engajamento, o discipulado e o serviço do corpo de Cristo. Assim como o slogan da Lagoinha afirma “Grande para servir e pequena para se importar”, a igreja se empenha em cuidar das pessoas que chegam e não sabem como se envolver, bem como daquelas que já frequentam, mas ainda não estão conectadas a nenhum ministério.",
+    button: "Fechar",
+        });
+    });      
+
+const carisma = document.querySelector('#carisma');
+carisma.addEventListener('click', function(){
+    swal({
+    title: "Carisma",
+    text: "O Seminário Teológico Carisma é uma instituição que dá vazão para o aprendizado das Escrituras e o mover espiritual. O objetivo é treinar pessoas para serem ministras do evangelho, é treinar homens e mulheres para serem respostas de Deus para a essa geração, levando a Palavra e o Espírito Santo às nações. Com cursos oferecidos nas modalidades híbridas (presencial e remota), já capacitou milhares de pessoas em todo o mundo. Em Campinas as aulas são ao vivo aos sábados e depois disponibilizada para os alunos na plataforma de estudos, o que possibilita que o estudante estude de onde estiver e quantas vezes achar necessário. Outras modalidades do Carisma são os cursos de extensão como a Escola de Mestres destinados a pessoas que já são formadas e desejam se capacitar ainda mais com foco no ministério de ensino, e cursos de especialização ministerial e desenvolvimento pessoal. Com mais de 20 anos de existência o Seminário Teológico Carisma tem funcionado no Brasil e no Mundo, conhecido como o Seminário da Palavra e do Espírito.",
+    button: "Fechar",
+        });
+    });  
+    
+const Diaconia = document.querySelector('#Diaconia');
+Diaconia.addEventListener('click', function(){
+    swal({
+    title: "Diaconia",
+    text: "Na Igreja Batista da Lagoinha, sempre que as pessoas chegam para algum culto, muitos voluntários estão prontos para recebê-las com um sorriso no rosto. Eles fazem parte da Diaconia Lagoinha Campinas, ministério de serviço, parking e apoio. O voluntario é alguém que se coloca à disposição da igreja como servo, para servi-la, e que também presta serviços diretos a ministérios. Servindo por Algo Maior. Os voluntários da Diaconia que estão à disposição em servir, chegam à igreja bem antes do culto começar, recepcionam os membros e visitantes, dão informações sobre dia e horário de cultos, acomodam todos que chegam para as reuniões, o envelope para dízimos e ofertas, ficha de pedido de oração e preparam a ceia. Além disso, auxiliam os pastores durante o culto, na distribuição de folhetos informativos, pedidos de oração, coleta de dízimos e ofertas, socorro aos enfermos ou acidentados, dentre outras atividades. A Diaconia Lagoinha tem a preocupação em cuidar dos voluntários. Além de servir, eles são acompanhados por meio das células que acontecem nas casas. Entendemos que a Diaconia é peça fundamental na igreja.",
+    button: "Fechar",
+        });
+    });      

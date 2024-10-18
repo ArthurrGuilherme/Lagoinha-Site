@@ -224,6 +224,68 @@
                 </div>
             </article>
         </section>
+        <section>
+            <article class="container-md d-flex justify-content-evenly align-items-center">
+                <div id="legacy" class="card mb-3" style="max-width: 540px; cursor: pointer;">
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./img/legac.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Legacy Jovens</h5>
+                        <p class="card-text"><small class="text-muted">Coordenação: Ivan Rohrer e Paula Rohrer</small></p>
+                        <p class="card-text"><small class="text-muted">11 99260-5327</small></p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div id="Plug" class="card mb-3" style="max-width: 540px; cursor: pointer;">
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./img/crie.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Plug</h5>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section>
+            <article class="container-md d-flex justify-content-evenly align-items-center">
+                <div id="carisma" class="card mb-3" style="max-width: 540px; cursor: pointer;">
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./img/carisma.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Carisma</h5>
+                        <p class="card-text"><small class="text-muted">Coordenação: Cristiano Bredda</small></p>
+                        <p class="card-text"><small class="text-muted">campinas@carisma.org.br</small></p>
+                        <p class="card-text"><small class="text-muted">(19) 99112-7192</small></p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div id="Diaconia" class="card mb-3" style="max-width: 540px; cursor: pointer;">
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./img/crie.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Diaconia</h5>
+                        <p class="card-text"><small class="text-muted">(19) 9 9823-4742</small></p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </article>
+        </section>
     </main>
     <!--Footer-->
         <?php echo $footer; ?>
