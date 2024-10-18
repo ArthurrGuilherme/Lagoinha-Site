@@ -14,7 +14,7 @@
                             <a class="nav-link active text-light" aria-current="page" href="igreja.php">Igreja</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Doação</a>
+                            <a class="nav-link text-light" href="doacoes.php">Doação</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-light" href="#">Orações</a>
@@ -27,7 +27,7 @@
                             <li><a target="_blank" class="dropdown-item" href="https://www.youtube.com/lagoinhacampinas">Ao vivo</a></li>
                             <li><a class="dropdown-item" href="#">Carisma</a></li>
                             <li><a class="dropdown-item" href="#">GC</a></li>
-                            <li><a class="dropdown-item" href="#">Ministérios</a></li>
+                            <li><a class="dropdown-item" href="./ministerios.php">Ministérios</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">

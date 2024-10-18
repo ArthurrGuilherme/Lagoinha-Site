@@ -26,7 +26,7 @@
         <?php echo $arrow; ?>
     <!--Scrolltop-->
     <main>
-        <section class="container-md d-flex justify-content-center align-items-center p-5">
+        <section id="Titulo" class="container-md d-flex justify-content-center align-items-center p-5">
             <article>
                 <div>
                     <span class="text-center">
@@ -43,7 +43,7 @@
             </article>
         </section>
         <section class="container-md">
-            <article class="d-flex justify-content-evenly ">
+            <article id="Banco" class="d-flex justify-content-evenly ">
                 <div style="gap: .8rem;" class="d-flex justify-content-center align-items-center">
                     <span class="w-25 d-flex justify-content-center">
                         <img class="w-75 rounded" src="./img/Pix.webp" alt="Pix">
@@ -72,7 +72,7 @@
                 </div>
             </article>
             <br>
-            <article class="d-flex justify-content-evenly">
+            <article id="Banco" class="d-flex justify-content-evenly">
                 <div style="gap: 0.8rem;" class="d-flex justify-content-center align-items-center">
                     <span class="w-25 d-flex justify-content-center">
                         <img class="w-100 rounded" src="./img/Santander.webp" alt="Pix">
@@ -102,7 +102,7 @@
     <!--Footer-->
 </body>
     <!--Js-->
-        <script src="./js/scrollrevel.js"></script>
+        <script src="./js/scrollrevell.js"></script>
         <script src="./js/maps.js"></script>
         <!--Js import-->
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
