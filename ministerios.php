@@ -34,7 +34,7 @@
                 </div>
             </article>
         </section>
-        <section>
+        <section class="Ministerio01">
             <article class="container-md d-flex justify-content-evenly align-items-center">
                 <div id="Solidaria" class="card mb-3" style="max-width: 540px; cursor: pointer;">
                     <div class="row g-0">
@@ -66,7 +66,7 @@
                 </div>
             </article>
         </section>
-        <section>
+        <section class="Ministerio02">
             <article class="container-md d-flex justify-content-evenly align-items-center">
                 <div id="casais" class="card mb-3" style="max-width: 540px; cursor: pointer;">
                     <div class="row g-0">
@@ -98,7 +98,7 @@
                 </div>
             </article>
         </section>
-        <section>
+        <section class="Ministerio03">
             <article class="container-md d-flex justify-content-evenly align-items-center">
                 <div id="maximus" class="card mb-3" style="max-width: 540px; cursor: pointer;">
                     <div class="row g-0">
@@ -130,7 +130,7 @@
                 </div>
             </article>
         </section>
-        <section>
+        <section class="Ministerio04">
             <article class="container-md d-flex justify-content-evenly align-items-center">
                 <div id="Kids" class="card mb-3" style="max-width: 540px; cursor: pointer;">
                     <div class="row g-0">
@@ -162,7 +162,7 @@
                 </div>
             </article>
         </section>
-        <section>
+        <section class="Ministerio05">
             <article class="container-md d-flex justify-content-evenly align-items-center">
                 <div id="Louvores" class="card mb-3" style="max-width: 540px; cursor: pointer;">
                     <div class="row g-0">
@@ -194,7 +194,7 @@
                 </div>
             </article>
         </section>
-        <section>
+        <section class="Ministerio06">
             <article class="container-md d-flex justify-content-evenly align-items-center">
                 <div id="Creative" class="card mb-3" style="max-width: 540px; cursor: pointer;">
                     <div class="row g-0">
@@ -224,7 +224,7 @@
                 </div>
             </article>
         </section>
-        <section>
+        <section class="Ministerio07">
             <article class="container-md d-flex justify-content-evenly align-items-center">
                 <div id="legacy" class="card mb-3" style="max-width: 540px; cursor: pointer;">
                     <div class="row g-0">
@@ -254,7 +254,7 @@
                 </div>
             </article>
         </section>
-        <section>
+        <section class="Ministerio08">
             <article class="container-md d-flex justify-content-evenly align-items-center">
                 <div id="carisma" class="card mb-3" style="max-width: 540px; cursor: pointer;">
                     <div class="row g-0">
@@ -293,7 +293,7 @@
 </body>
     <script src="./js/sweetalert.js"></script>
     <!--Js-->
-        <script src="./js/scrollrevell.js"></script>
+        <script src="./js/scrollrevelll.js"></script>
         <script src="./js/maps.js"></script>
         <!--Js import-->
             <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
