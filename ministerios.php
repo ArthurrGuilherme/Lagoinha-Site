@@ -25,7 +25,7 @@
         <?php echo $arrow; ?>
     <!--Scrolltop-->
     <main>
-        <section id="Titulo" class="container-md d-flex justify-content-center align-items-center p-4">
+        <section id="Titulo" class="container-md d-flex justify-content-center align-items-center p-5">
             <article>
                 <div>
                     <span >
@@ -124,6 +124,100 @@
                         <h5 class="card-title">Intercessão</h5>
                         <p class="card-text"><small class="text-muted">Coordenação: Volney Lima e Luana Lima</small></p>
                         <p class="card-text"><small class="text-muted">11 95488-4859</small></p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section>
+            <article class="container-md d-flex justify-content-evenly align-items-center">
+                <div id="Kids" class="card mb-3" style="max-width: 540px; cursor: pointer;">
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./img/kids.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Kids</h5>
+                        <p class="card-text"><small class="text-muted">Coordenação: Leila Bredda</small></p>
+                        <p class="card-text"><small class="text-muted">19 98820-0056</small></p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div id="Consolidacao" class="card mb-3" style="max-width: 540px; cursor: pointer;">
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./img/crie.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Consolidação</h5>
+                        <p class="card-text"><small class="text-muted">Coordenação: Volney Lima e Luana Lima</small></p>
+                        <p class="card-text"><small class="text-muted">11 95488-4859</small></p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section>
+            <article class="container-md d-flex justify-content-evenly align-items-center">
+                <div id="Louvores" class="card mb-3" style="max-width: 540px; cursor: pointer;">
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./img/crie.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Louvor e Artes</h5>
+                        <p class="card-text"><small class="text-muted">Coordenação: Hellen Geraldi</small></p>
+                        <p class="card-text"><small class="text-muted">19 98138-5445</small></p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div id="Link" class="card mb-3" style="max-width: 540px; cursor: pointer;">
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./img/link.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Link</h5>
+                        <p class="card-text"><small class="text-muted">Coordenação: Leila Bredda</small></p>
+                        <p class="card-text"><small class="text-muted">19 98820-0056</small></p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section>
+            <article class="container-md d-flex justify-content-evenly align-items-center">
+                <div id="Creative" class="card mb-3" style="max-width: 540px; cursor: pointer;">
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./img/crie.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Creative</h5>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div id="Rocket" class="card mb-3" style="max-width: 540px; cursor: pointer;">
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./img/rockt.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Rocket</h5>
+                        <p class="card-text"><small class="text-muted">Coordenação: Julio Bento e Gislaine Bento</small></p>
+                        <p class="card-text"><small class="text-muted">19 99143-8584</small></p>
                         </div>
                     </div>
                     </div>
