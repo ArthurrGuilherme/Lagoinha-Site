@@ -25,7 +25,7 @@
                             </a>
                             <ul class="dropdown-menu">
                             <li><a target="_blank" class="dropdown-item" href="https://www.youtube.com/lagoinhacampinas">Ao vivo</a></li>
-                            <li><a class="dropdown-item" href="#">Carisma</a></li>
+                            <li><a class="dropdown-item" href="./carisma.php">Carisma</a></li>
                             <li><a class="dropdown-item" href="#">GC</a></li>
                             <li><a class="dropdown-item" href="./ministerios.php">Ministérios</a></li>
                             </ul>
