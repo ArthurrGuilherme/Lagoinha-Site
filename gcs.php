@@ -14,7 +14,8 @@
         <link rel="stylesheet" href="./css/shared.css">
         <!--Css import-->
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-            <script src="https://unpkg.com/scrollreveal"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
         <!--Css import-->
     <!--Css-->
 </head>
@@ -58,13 +59,13 @@
                 </div>
             </article>
         </section>
-        <section>
+        <section class="container-md d-flex justify-content-end align-items-end p-4">
             <article>
                 <div>
                     <span>
-                        <h2>Formulário de Cadastro GC</h2>
+                        <h4>Formulário de Cadastro GC</h4>
                     </span>
-                    <form action="./db/create.php" method="post">
+                    <form id="gcForm" onsubmit="enviarFormulario(event)">
                         <label for="nome">Nome:</label>
                         <input type="text" id="nome" name="nome" required><br><br>
 
@@ -80,25 +81,26 @@
 
                         <label for="tipo_gc">Qual tipo de GC te atende?</label>
                         <select id="tipo_gc" name="tipo_gc" required>
-                            <option value="Misto">Misto (homens e mulheres)</option>
-                            <option value="Misto + Kids">Misto + Kids (crianças)</option>
-                            <option value="Kids">Kids (de 02 a 09 anos)</option>
-                            <option value="Link">Link (de 10 a 12 anos)</option>
-                            <option value="Rocket">Rocket (de 13 a 17 anos)</option>
-                            <option value="Legacy">Legacy (a partir de 18 anos)</option>
-                            <option value="Shine">Shine (mulheres)</option>
-                            <option value="Maximus">Maximus (homens)</option>
+                            <option value="Misto (homens e mulheres)">Misto (homens e mulheres)</option>
+                            <option value="Misto + Kids (crianças)">Misto + Kids (crianças)</option>
+                            <option value="Kids (de 02 a 09 anos)">Kids (de 02 a 09 anos)</option>
+                            <option value="Link (de 10 a 12 anos)">Link (de 10 a 12 anos)</option>
+                            <option value="Rocket (de 13 a 17 anos)">Rocket (de 13 a 17 anos)</option>
+                            <option value="Legacy (a partir de 18 anos)">Legacy (a partir de 18 anos)</option>
+                            <option value="Shine (mulheres)">Shine (mulheres)</option>
+                            <option value="Maximus (homens)">Maximus (homens)</option>
                             <option value="On-line">On-line</option>
                         </select><br><br>
 
                         <label for="regiao">Qual bairro/região de preferência para frequentar um GC?</label>
-                        <input type="text" id="regiao" name="regiao"><br><br>
+                        <input require type="text" id="regiao" name="regiao"><br><br>
 
-                        <label for="comentario">Deixe aqui seu comentário, dúvida, sugestão, agradecimento...</label><br>
+                        <label for="comentario">Deixe aqui seu comentário, dúvida, sugestão, agradecimento:</label><br>
                         <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea><br><br>
 
-                        <input type="submit" value="Enviar">
-                    </form>
+                        <!-- Botão de Enviar -->
+                        <button type="submit">Enviar</button>
+                    </form>   
                 </div>
             </article>
         </section>
@@ -108,6 +110,7 @@
     <!--Footer-->
 </body>
     <!--Js-->
+        <script src="./js/sweetalertt.js"></script>
         <script src="./js/scrollrevelll.js"></script>
         <script src="./js/maps.js"></script>
         <!--Js import-->

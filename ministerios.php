@@ -291,7 +291,7 @@
         <?php echo $footer; ?>
     <!--Footer-->
 </body>
-    <script src="./js/sweetalert.js"></script>
+    <script src="./js/sweetalertt.js"></script>
     <!--Js-->
         <script src="./js/scrollrevelll.js"></script>
         <script src="./js/maps.js"></script>
