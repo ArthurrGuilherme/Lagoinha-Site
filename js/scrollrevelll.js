@@ -82,6 +82,12 @@ ScrollReveal().reveal('.Ministerio08',
     }
 );
 
+ScrollReveal().reveal('#Formulario', 
+    {    
+        duration: 1400, reset: true, distance: '100px' , origin: 'left',
+    }
+);
+
 const headersecundario = document.querySelector(".Arrow");
 
 window.addEventListener("scroll", () => {

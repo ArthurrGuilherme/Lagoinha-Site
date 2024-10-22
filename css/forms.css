@@ -1,0 +1,16 @@
+input {
+    border: 1px solid #000;
+    padding: 0.2rem 4.5rem;
+    border-radius: 15px;
+}
+#desejo {
+    padding: 0.2rem 0rem;
+    border: 1px solid #000;
+    border-radius: 15px;
+
+}
+#tipo_gc {
+    padding: 0.2rem 2.8rem;
+    border: 1px solid #000;
+    border-radius: 15px;
+}

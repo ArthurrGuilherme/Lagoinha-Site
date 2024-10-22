@@ -12,10 +12,10 @@
         <link rel="stylesheet" href="./css/reset.css">
         <link rel="stylesheet" href="./css/main.css">
         <link rel="stylesheet" href="./css/shared.css">
+        <link rel="stylesheet" href="./css/forms.css">
         <!--Css import-->
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
         <!--Css import-->
     <!--Css-->
 </head>
@@ -27,7 +27,8 @@
         <?php echo $arrow; ?>
     <!--Scrolltop-->
     <main>
-        <section id="Titulo" class="container-md d-flex justify-content-center align-items-center p-4">
+        <br><br>
+        <section id="Titulo" class="container-md d-flex justify-content-center align-items-center">
             <article>
                 <div>
                     <span>
@@ -59,27 +60,31 @@
                 </div>
             </article>
         </section>
-        <section class="container-md d-flex justify-content-end align-items-end p-4">
+        <section id="Formulario" class="container-md d-flex justify-content-end align-items-end">
             <article>
-                <div>
+                <div class="p-4" style="box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);">
                     <span>
                         <h4>Formulário de Cadastro GC</h4>
                     </span>
                     <form id="gcForm" onsubmit="enviarFormulario(event)">
                         <label for="nome">Nome:</label>
-                        <input type="text" id="nome" name="nome" required><br><br>
-
+                        <br>
+                        <input class="text-center" type="text" id="nome" name="nome" required>
+                        <br><br>
                         <label for="telefone">Telefone (WhatsApp):</label>
-                        <input type="text" id="telefone" name="telefone" required><br><br>
-
+                        <br>
+                        <input class="text-center" type="text" id="telefone" name="telefone" required>
+                        <br><br>
                         <label for="desejo">O que você deseja?</label>
-                        <select id="desejo" name="desejo" required>
+                        <br>
+                        <select class="text-center" id="desejo" name="desejo" required>
                             <option value="Participar de um GC">Participar de um GC</option>
                             <option value="Liderar um GC">Liderar um GC</option>
                             <option value="Receber um GC em casa (ser anfitrião)">Receber um GC em casa (ser anfitrião)</option>
-                        </select><br><br>
-
+                        </select>
+                        <br><br>
                         <label for="tipo_gc">Qual tipo de GC te atende?</label>
+                        <br>
                         <select id="tipo_gc" name="tipo_gc" required>
                             <option value="Misto (homens e mulheres)">Misto (homens e mulheres)</option>
                             <option value="Misto + Kids (crianças)">Misto + Kids (crianças)</option>
@@ -90,20 +95,20 @@
                             <option value="Shine (mulheres)">Shine (mulheres)</option>
                             <option value="Maximus (homens)">Maximus (homens)</option>
                             <option value="On-line">On-line</option>
-                        </select><br><br>
-
-                        <label for="regiao">Qual bairro/região de preferência para frequentar um GC?</label>
-                        <input require type="text" id="regiao" name="regiao"><br><br>
-
-                        <label for="comentario">Deixe aqui seu comentário, dúvida, sugestão, agradecimento:</label><br>
-                        <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea><br><br>
-
-                        <!-- Botão de Enviar -->
-                        <button type="submit">Enviar</button>
+                        </select>
+                        <br><br>
+                        <label  for="regiao">Qual bairro/região de preferência para <br> frequentar um GC?</label>
+                        <br>
+                        <input class="text-center" require type="text" id="regiao" name="regiao">
+                        <br><br>
+                        <span class="container-md d-flex justify-content-center align-items-center">
+                            <button class="text-center btn btn-success" type="submit">Enviar</button>
+                        </span>
                     </form>   
                 </div>
             </article>
         </section>
+        <br>
     </main>
     <!--Footer-->
         <?php echo $footer; ?>
@@ -111,9 +116,8 @@
 </body>
     <!--Js-->
         <script src="./js/sweetalertt.js"></script>
-        <script src="./js/scrollrevelll.js"></script>
-        <script src="./js/maps.js"></script>
         <!--Js import-->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         <!--Js import-->
     <!--Js-->
