@@ -45,7 +45,7 @@
             <article>
                 <div style="gap: 1rem;" class="d-flex justify-content-evenly align-items-center">
                     <span class="w-50" id="Videoimg">
-                        <img class="w-100 rounded" src="./img/img_banner2.webp" alt="Img">
+                        <img class="w-100 rounded" src="./img/carisma.jpg" alt="Img">
                     </span>
                     <span id="Texto" style="margin: 0px !important;">
                         <h4><strong>O Seminário da Palavra e do Espírito</strong></h4>
@@ -61,8 +61,13 @@
                         <p>pessoal</p>
                     </span>
                 </div>
+                <br>
+                <span  class="d-flex justify-content-center">
+                    <a style="background: linear-gradient(45deg, #e91b1b, black);color: #fff;padding: .5rem 1.5rem;border-radius: 5px;" href="https://docs.google.com/forms/d/e/1FAIpQLSctUM71SZw2gwDNIdRlNgUdjCGiSwCJ13lmLtaPzoLet1Qaig/viewform" target="_blank" rel="noopener noreferrer">FAÇA SUA PRÉ-INSCRIÇÃO AQUI!</a>
+                </span>
             </article>
         </section>
+        <br>
     </main>
     <!--Footer-->
         <?php echo $footer; ?>
