@@ -26,7 +26,43 @@
         <?php echo $arrow; ?>
     <!--Scrolltop-->
     <main>
-
+        <section id="Titulo" class="container-md d-flex justify-content-center align-items-center p-5">
+            <article>
+                <div>
+                    <span >
+                        <h3 class="text-center"><strong>Seminário Teológico Carisma Campinas</strong></h3>
+                        <span>
+                            <p>O Seminário Teológico Carisma é uma instituição que dá vazão para o aprendizado das Escrituras e o mover espiritual.</p>
+                            <p>O objetivo é treinar pessoas para serem ministras do evangelho, é treinar homens e mulheres para serem respostas de</p>
+                            <p>Estamos aqui como sal da terra e luz do mundo. Estamos aqui para glorificar Cristo em nossa vida a salvação. Deus para</p>
+                            <p>a essa geração, levando a Palavra e o Espírito Santo às nações.</p>
+                        </span>
+                    </span>
+                </div>
+            </article>
+        </section>
+        <section class="container-md">
+            <article>
+                <div style="gap: 1rem;" class="d-flex justify-content-evenly align-items-center">
+                    <span class="w-50" id="Videoimg">
+                        <img class="w-100 rounded" src="./img/img_banner2.webp" alt="Img">
+                    </span>
+                    <span id="Texto" style="margin: 0px !important;">
+                        <h4><strong>O Seminário da Palavra e do Espírito</strong></h4>
+                        <p>Com cursos oferecidos na modalidade presencial, já</p>
+                        <p>capacitou milhares de pessoas em todo o mundo. Em </p>
+                        <p>Campinas as aulas são presenciais  no período noturno</p>
+                        <p>(segunda-feira e terça-feira).</p>
+                        <br>
+                        <p>Outras modalidades do Carisma são os cursos de extensão como</p>
+                        <p>a Escola de Mestres destinados a pessoas que já são formadas</p>
+                        <p>e desejam se capacitar ainda mais com foco no ministério de</p>
+                        <p> ensino, e cursos de especialização ministerial e desenvolvimento</p>
+                        <p>pessoal</p>
+                    </span>
+                </div>
+            </article>
+        </section>
     </main>
     <!--Footer-->
         <?php echo $footer; ?>
