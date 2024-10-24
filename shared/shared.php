@@ -11,13 +11,13 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active text-light" aria-current="page" href="igreja.php">Igreja</a>
+                            <a class="nav-link active text-light" aria-current="page" href="./igreja.php">Igreja</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="doacoes.php">Doação</a>
+                            <a class="nav-link text-light" href="./doacoes.php">Doação</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Orações</a>
+                            <a class="nav-link text-light" href="./oracao.php">Orações</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
