@@ -31,7 +31,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Login</a>
+                            <a class="nav-link text-light" href="./login/login.php">Login</a>
                         </li>
                     </ul>
                 </div>
@@ -73,7 +73,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Login</a>
+                            <a class="nav-link text-light" href="../login/login.php">Login</a>
                         </li>
                     </ul>
                 </div>

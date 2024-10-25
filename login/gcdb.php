@@ -58,6 +58,7 @@ include '../shared/shared.php';
                                         echo '<h6 class="card-subtitle mb-2 text-muted">' . htmlspecialchars($row['telefone']) . '</h6>';
                                         echo '<p class="card-text">' . htmlspecialchars($row['comentario']) . '</p>';
                                         echo '<p class="card-text">O que você deseja: ' . htmlspecialchars($row['desejo']) . ' Tipo de GC: ' . htmlspecialchars($row['tipo_gc']) . '</p>';
+                                        echo '<br>';
                                         echo '<button class="btn btn-danger" onclick="excluirRegistro(' . $row['id'] . ')">Excluir</button>';
                                         echo '</div>';
                                         echo '</div>';
