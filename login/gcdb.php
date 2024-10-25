@@ -1,20 +1,8 @@
 <?php
-include '../db/db.php'; 
 include '../shared/shared.php';
 
-
-    if (isset($_GET['delete_id'])) {
-        $delete_id = intval($_GET['delete_id']);
-        $sql = "DELETE FROM gc_participantes WHERE id = $delete_id";
-        if ($conn->query($sql) === TRUE) {
-            echo "<script>alert('Registro excluído com sucesso!');</script>";
-        } else {
-            echo "Erro ao excluir o registro: " . $conn->error;
-        }
-    }
-
-
 ?>
+
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -56,8 +44,11 @@ include '../shared/shared.php';
                                         echo '<div class="card-body">';
                                         echo '<h5 class="card-title">' . htmlspecialchars($row['nome']) . '</h5>';
                                         echo '<h6 class="card-subtitle mb-2 text-muted">' . htmlspecialchars($row['telefone']) . '</h6>';
+                                        echo '<br>';
                                         echo '<p class="card-text">' . htmlspecialchars($row['comentario']) . '</p>';
-                                        echo '<p class="card-text">O que você deseja: ' . htmlspecialchars($row['desejo']) . ' Tipo de GC: ' . htmlspecialchars($row['tipo_gc']) . '</p>';
+                                        echo '<p class="card-text">O que você deseja:<br> ' . htmlspecialchars($row['desejo']) . ' <br><br> Tipo de GC:<br> ' . htmlspecialchars($row['tipo_gc']) . '</p>';
+                                        echo '<br>';
+                                        echo '<p class="card-text">Região: ' . htmlspecialchars($row['regiao']) . '</p>';
                                         echo '<br>';
                                         echo '<button class="btn btn-danger" onclick="excluirRegistro(' . $row['id'] . ')">Excluir</button>';
                                         echo '</div>';

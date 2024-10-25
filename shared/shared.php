@@ -30,9 +30,6 @@
                             <li><a class="dropdown-item" href="./ministerios.php">Ministérios</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="./login/login.php">Login</a>
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -71,9 +68,6 @@
                             <li><a class="dropdown-item" href="../gcs.php">GC</a></li>
                             <li><a class="dropdown-item" href="../ministerios.php">Ministérios</a></li>
                             </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="../login/login.php">Login</a>
                         </li>
                     </ul>
                 </div>
