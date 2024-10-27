@@ -31,42 +31,49 @@ $mensagens = $stmt->fetchAll();
         <?php echo $arrow; ?>
     <!--Scrolltop-->
     <main>
-    <div class="container mt-5">
-        <h1>Mural de orações</h1>
-        <a href="./db/createdb.php" class="btn btn-primary mb-3">Adicionar Nova Mensagem</a>
-        <div class="row">
-            <?php foreach ($mensagens as $mensagem): ?>
-                <div class="col-md-4">
-                    <div class="card mb-4" style="width: 18rem;">
-                        <div class="card-body">
-                            <h5 class="card-title"><?= htmlspecialchars($mensagem['nome']) ?></h5>
-                            <h6 class="card-subtitle mb-2 text-muted"><?= htmlspecialchars($mensagem['titulo']) ?></h6>
-                            <p class="card-text" 
-                               id="message-<?= $mensagem['id'] ?>" 
-                               style="overflow: hidden; max-height: 4.5em; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;">
-                                <?= htmlspecialchars($mensagem['mensagem']) ?>
-                            </p>
-                            <a href="javascript:void(0);" class="card-link read-more" data-message="<?= htmlspecialchars($mensagem['mensagem']) ?>">Ler mais</a>
+    <section class="container-md p-5">
+        <article>
+            <div>
+                <span class="d-flex justify-content-center flex-column align-items-center">
+                    <h1>Mural de orações</h1>
+                    <a href="./db/createdb.php" class="btn btn-primary mb-3">Adicionar Nova Mensagem</a>
+                </span>
+                <br> 
+                <span class="row">
+                    <?php foreach ($mensagens as $mensagem): ?>
+                        <div class="col-md-4">
+                            <div class="card mb-4" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title"><?= htmlspecialchars($mensagem['nome']) ?></h5>
+                                    <h6 class="card-subtitle mb-2 text-muted"><?= htmlspecialchars($mensagem['titulo']) ?></h6>
+                                    <p class="card-text" 
+                                    id="message-<?= $mensagem['id'] ?>" 
+                                    style="overflow: hidden; max-height: 4.5em; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;">
+                                        <?= htmlspecialchars($mensagem['mensagem']) ?>
+                                    </p>
+                                    <a href="javascript:void(0);" class="card-link read-more" data-message="<?= htmlspecialchars($mensagem['mensagem']) ?>">Ler mais</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            <?php endforeach; ?>
-        </div>
-    </div>
+                    <?php endforeach; ?>
+                </span>
+            </div>
+        </article>
+    </section>
     </main>
     <br>
     <!--Footer-->
         <?php echo $footer; ?>
     <!--Footer-->
 </body>
-<script>
+    <script>
         document.addEventListener('DOMContentLoaded', function() {
             const readMoreLinks = document.querySelectorAll('.read-more');
             readMoreLinks.forEach(link => {
                 link.addEventListener('click', function() {
                     const message = this.getAttribute('data-message');
                     swal({
-                        title: "Mensagem Completa",
+                        title: "Mural de orações",
                         text: message,
                         icon: "info",
                         button: "Fechar",
@@ -76,7 +83,6 @@ $mensagens = $stmt->fetchAll();
         });
     </script>
     <!--Js-->
-        <script src="./js/maps.js"></script>
         <!--Js import-->
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         <!--Js import-->
